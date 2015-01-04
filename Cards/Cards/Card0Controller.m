@@ -7,6 +7,7 @@
 //
 
 #import "Card0Controller.h"
+#import "Logging.h"
 
 @interface Card0Controller ()
 
@@ -30,9 +31,9 @@
 
 #pragma mark - Navigation
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
 
-    NSLog(@"%@ prepareForSegue: %@ sender: %@", [self class], segue.identifier, [sender class]);
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    ALog(@"segue id %@ src-vc %@ dst-vc %@", segue.identifier, [segue.sourceViewController class], [segue.destinationViewController class]);
 }
 
 @end
