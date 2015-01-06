@@ -16,13 +16,13 @@
 @implementation RootController
 
 - (IBAction)toRootControllerWithSeque:(UIStoryboardSegue *)segue {
-    ALog(@"segue id %@ src-vc %@ dst-vc %@", segue.identifier, [segue.sourceViewController class], [segue.destinationViewController class]);
+    ALog(@"id %@ src-vc %@ dst-vc %@", segue.identifier, [segue.sourceViewController class], [segue.destinationViewController class]);
 }
 
 #pragma mark - Navigation
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    ALog(@"segue id %@ src-vc %@ dst-vc %@", segue.identifier, [segue.sourceViewController class], [segue.destinationViewController class]);
+    ALog(@"id %@ src-vc %@ dst-vc %@", segue.identifier, [segue.sourceViewController class], [segue.destinationViewController class]);
 }
 
 @end

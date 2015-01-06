@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface Card0Controller : UIViewController
-
 @end

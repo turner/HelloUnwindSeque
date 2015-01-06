@@ -118,10 +118,10 @@
 			children = (
 				3117C02A18F9F75800747236 /* Supporting Files */,
 				3117C03518F9F75800747236 /* Main.storyboard */,
-				318DBC5918FB193D00EC668F /* RootController.h */,
-				318DBC5A18FB193D00EC668F /* RootController.m */,
 				3117C03218F9F75800747236 /* AppDelegate.h */,
 				3117C03318F9F75800747236 /* AppDelegate.m */,
+				318DBC5918FB193D00EC668F /* RootController.h */,
+				318DBC5A18FB193D00EC668F /* RootController.m */,
 				3117C05B18FA003E00747236 /* Card0Controller.h */,
 				3117C05C18FA003E00747236 /* Card0Controller.m */,
 				3117C03E18F9F75800747236 /* Images.xcassets */,
